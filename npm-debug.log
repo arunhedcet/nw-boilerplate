@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/arun/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/arun/.npm/nw-boilerplate/1.0.1/package.tgz', '.' ]
+12 verbose tarball /home/arun/.npm/nw-boilerplate/1.0.1/package.tgz
+13 verbose folder .
+14 info prepublish nw-boilerplate@1.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/arun/.npm/1f1177db-tar.lock
+17 silly lockFile e0cddc48-nw-boilerplate-1-0-1-package-tgz tar:///home/arun/.npm/nw-boilerplate/1.0.1/package.tgz
+18 verbose lock tar:///home/arun/.npm/nw-boilerplate/1.0.1/package.tgz /home/arun/.npm/e0cddc48-nw-boilerplate-1-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile e0cddc48-nw-boilerplate-1-0-1-package-tgz tar:///home/arun/.npm/nw-boilerplate/1.0.1/package.tgz
+22 silly lockFile e0cddc48-nw-boilerplate-1-0-1-package-tgz tar:///home/arun/.npm/nw-boilerplate/1.0.1/package.tgz
+23 silly lockFile 04e88281-npm-nw-boilerplate-1-0-1-package /home/arun/.npm/nw-boilerplate/1.0.1/package
+24 verbose lock /home/arun/.npm/nw-boilerplate/1.0.1/package /home/arun/.npm/04e88281-npm-nw-boilerplate-1-0-1-package.lock
+25 silly lockFile 04e88281-npm-nw-boilerplate-1-0-1-package /home/arun/.npm/nw-boilerplate/1.0.1/package
+26 silly lockFile 04e88281-npm-nw-boilerplate-1-0-1-package /home/arun/.npm/nw-boilerplate/1.0.1/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'nw-boilerplate',
+29 silly publish   version: '1.0.1',
+29 silly publish   homepage: 'https://github.com/arunhedcet/nw-boilerplate',
+29 silly publish   description: 'node webkit boiler plate with polymer',
+29 silly publish   main: 'index.html',
+29 silly publish   private: true,
+29 silly publish   author: { name: 'tk' },
+29 silly publish   license: 'MIT',
+29 silly publish   devDependencies:
+29 silly publish    { gulp: '^3.8.11',
+29 silly publish      'gulp-shell': '^0.3.0',
+29 silly publish      'node-webkit-builder': '^1.0.10',
+29 silly publish      vulcanize: '^0.7.9',
+29 silly publish      bower: '^1.3.12' },
+29 silly publish   readme: '#NW-boilerplate - v1.0.1 - Installing  Instructions#\r\n\r\n## Terminal ##\r\n\r\n1. Install node,npm and bower\r\n5. `npm install` inside root directory\r\n6. `gulp init`\r\n1. `gulp build` to build for all platforms or platform specific code = if linux `gulp build-linux` mac `gulp build-mac`,windows `gulp build-win`\r\n8. `gulp run` to run the development directory\r\n\r\nadd polymer component links inside pol.html\r\n\r\n\r\n*TK*\r\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '4309ae8ddf9c827117a9a11c9bceca527428915c',
+29 silly publish   _id: 'nw-boilerplate@1.0.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: '1df035cf8b6ad473d460b14f37979920941f1dcc',
+29 silly publish   _from: '.' }
+30 error Error: This package has been marked as private
+30 error Remove the 'private' field from the package.json to publish it.
+30 error     at publish_ (/usr/lib/node_modules/npm/lib/publish.js:91:31)
+30 error     at Array.1 (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+30 error     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+30 error     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+30 error     at chain (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+30 error     at /usr/lib/node_modules/npm/lib/publish.js:57:5
+30 error     at /usr/lib/node_modules/npm/node_modules/inflight/inflight.js:22:7
+30 error     at Array.forEach (native)
+30 error     at res (/usr/lib/node_modules/npm/node_modules/inflight/inflight.js:21:9)
+30 error     at f (/usr/lib/node_modules/npm/node_modules/once/once.js:16:25)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Linux 3.13.0-44-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+34 error cwd /home/arun/NW-1
+35 error node -v v0.10.36
+36 error npm -v 1.4.28
+37 verbose exit [ 1, true ]
