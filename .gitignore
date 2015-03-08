@@ -1,0 +1,8 @@
+*.sublime-project
+*.sublime-workspace
+components/
+node_modules/
+build/
+development/node_modules/
+development/components/
+*.build_components/

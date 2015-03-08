@@ -1,0 +1,23 @@
+{
+  "name": "nw-boilerplate",
+  "version": "1.0.1",
+  "description": "node webkit boiler plate with polymer",
+  "main": "index.html",
+  "private": true,
+  "window": {
+    "title":"NW",
+    "toolbar": false,
+    "resizable": true,
+    "width": 1000,
+    "height": 600,
+    "min_width": 600,
+    "min_height": 400,
+    "position": "center"
+  },
+  "author": "tk",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
